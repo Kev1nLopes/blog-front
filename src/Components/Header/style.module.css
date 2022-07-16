@@ -1,0 +1,55 @@
+.header{
+  height: 4.375rem;
+  background-color: rgb(112, 45, 0);
+}
+.headerContent{
+  max-width: 77rem;
+  width: 100%;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  position: relative;
+  margin: 0 auto;
+}
+.logo{
+  height: inherit;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  color: var(--white);
+}
+
+.logo > img{
+  height: inherit;
+  transform: rotateY(3rad);
+}
+.navbar{
+  left:0;
+  right:0;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  position: absolute;
+  width: fit-content;
+
+  
+}
+.navbar > a{
+  margin: 0 1rem;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar > a:hover{
+  color: var(--gray-100)
+}
+
+.profile{
+  color: white;
+  font-size: 1.5rem;
+  display: flex;
+  gap: 2rem;
+}
